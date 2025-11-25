@@ -11,6 +11,41 @@
 */
 
 .page {
+  
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  font-family: var(--main-font,sans-serif);
+  font-variation-settings: "wght" var(--text-weight);
+  background-image: var(--background-image);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header{
+  display:flex;
+  flex-direction: column;
+  gap:20px;
+  justify-content: center;
+  font-family: var(--accent-font);
+  inline-size: var(--inline-size);
+  background-color: #fff;
+  border:2px solid #000;
+  padding-block: clamp(120px, 117.18px + 0.75vw, 128px);
+  padding-inline: clamp(14px, -23.50px + 10.00vw, 120.5px);
+  margin:100px auto;
+}
+
+.header__logo{
+  font-size: clamp(49px, 43.37px + 1.50vw, 65px);
+  
+  font-weight: 400;
+}
+
+.header__title{
+  text-align: center;
+  font-size: clamp(14px, 10.83px + 0.85vw, 23px);
+  text-transform:uppercase;
+  font-weight: 400;
 }
