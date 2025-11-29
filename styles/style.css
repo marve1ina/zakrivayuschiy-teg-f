@@ -11,14 +11,14 @@
 */
 
 .page {
-  margin:100px auto;
+  margin: 100px auto;
   font-family: var(--main-font, sans-serif);
   font-size: 18px;
   background-image: var(--background-image);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  inline-size:max-content;
+  inline-size: max-content;
   min-inline-size: 320px;
   max-inline-size: 700px;
   min-block-size: 100dvb;
@@ -103,40 +103,40 @@
 .content__card-image {
   display: block;
   object-fit: cover;
-  object-position:center;
+  object-position: center;
   max-inline-size: 100%;
   aspect-ratio: 1/1;
 }
 
-.zero-sprint-image{
-  filter:grayscale(1) contrast(1.7);
+.zero-sprint-image {
+  filter: grayscale(1) contrast(1.7);
 }
 
-.first-sprint-start-image{
-  filter:saturate(4);
+.first-sprint-start-image {
+  filter: saturate(4);
 }
 
-.first-sprint-end-image{
-  filter:invert(1);
+.first-sprint-end-image {
+  filter: invert(1);
 }
 
-.second-sprint-start-image{
-  filter:hue-rotate(-30deg);
+.second-sprint-start-image {
+  filter: hue-rotate(-30deg);
 }
 
-.second-sprint-end-image{
+.second-sprint-end-image {
   filter: contrast(2);
 }
 
-.third-sprint-start-image{
+.third-sprint-start-image {
   filter: blur(5px);
 }
 
-.third-sprint-end-image{
-  filter:brightness(150%);
+.third-sprint-end-image {
+  filter: brightness(150%);
 }
 
-.four-sprint-image{
+.four-sprint-image {
   filter: sepia(0.7);
 }
 
@@ -165,9 +165,9 @@
   padding: 0;
   background-color: var(--button-color);
   transition: border-color 0.3s ease;
+  cursor: pointer;
   inline-size: 38px;
   block-size: 38px;
-  cursor: pointer;
 }
 
 .card__icon-button:focus {
