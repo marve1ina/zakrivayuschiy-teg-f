@@ -16,7 +16,7 @@
 
   <body class="page">
     <header class="header">
-      <h1 class="header__logo">&lt;/HTML&gt;</h1>
+      <h1 class="header__logo">&lt;/html&gt;</h1>
       <h2 class="header__title">закрывающий тег</h2>
     </header>
     <main class="content">
@@ -29,13 +29,13 @@
             <source srcset="./images/zero-sprint.avif" type="image/avif" />
             <source srcset="./images/zero-sprint.webp" type="image/webp" />
             <img
-              class="content__card-image zero-sprint-image"
+              class="content__card-image grayscale-filter"
               src="./images/zero-sprint.jpg"
               loading="lazy"
               alt="Молодой росток на размытом фоне с черно белым фильтром"
             />
           </picture>
-          <label class="content__card-image-label">&lt;настрой&gt;</label>
+          <span class="content__card-image-label">&lt;настрой&gt;</span>
         </div>
         <div class="content__card-body">
           <p class="content__card-text">
@@ -50,7 +50,7 @@
             на учёбу.
           </p>
           <div class="card__buttons">
-            <button class="card__icon-button" type="button">
+            <button class="card__icon-button" type="button" aria-label="Мне нравится">
               <svg
                 class="like-icon"
                 width="39"
@@ -58,6 +58,7 @@
                 viewBox="0 0 39 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
               >
                 <g class="heart">
                   <path
@@ -102,13 +103,13 @@
               type="image/webp"
             />
             <img
-              class="content__card-image first-sprint-start-image"
+              class="content__card-image saturate-filter"
               src="./images/first-sprint-start.jpg"
               loading="lazy"
               alt="Бутон подсолнуха крупным планом с повышенной насыщеностью"
             />
           </picture>
-          <label class="content__card-image-label">&lt;начало&gt;</label>
+          <span class="content__card-image-label">&lt;начало&gt;</span>
         </div>
         <div class="content__card-body">
           <p class="content__card-text">
@@ -125,7 +126,7 @@
             давал ощущение движения к своему будущему.
           </p>
           <div class="card__buttons">
-            <button class="card__icon-button" type="button">
+            <button class="card__icon-button" type="button" aria-label="Мне нравится">
               <svg
                 class="like-icon"
                 width="39"
@@ -133,6 +134,7 @@
                 viewBox="0 0 39 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
               >
                 <g class="heart">
                   <path
@@ -171,13 +173,13 @@
             <source srcset="./images/first-sprint-end.avif" type="image/avif" />
             <source srcset="./images/first-sprint-end.webp" type="image/webp" />
             <img
-              class="content__card-image first-sprint-end-image"
+              class="content__card-image invert-filter"
               src="./images/first-sprint-end.jpg"
               loading="lazy"
               alt="Астра в негативе"
             />
           </picture>
-          <label class="content__card-image-label">&lt;уверенность&gt;</label>
+          <span class="content__card-image-label">&lt;уверенность&gt;</span>
         </div>
         <div class="content__card-body">
           <p class="content__card-text">
@@ -193,7 +195,7 @@
             укрепил веру в себя и свои силы.
           </p>
           <div class="card__buttons">
-            <button class="card__icon-button" type="button">
+            <button class="card__icon-button" type="button" aria-label="Мне нравится">
               <svg
                 class="like-icon"
                 width="39"
@@ -201,6 +203,7 @@
                 viewBox="0 0 39 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
               >
                 <g class="heart">
                   <path
@@ -245,15 +248,13 @@
               type="image/webp"
             />
             <img
-              class="content__card-image second-sprint-start-image"
+              class="content__card-image hue-rotate-filter"
               src="./images/second-sprint-start.jpg"
               loading="lazy"
               alt="Цветок калы на розовом фоне"
             />
           </picture>
-          <label class="content__card-image-label"
-            >&lt;сосредоточенность&gt;</label
-          >
+          <span class="content__card-image-label">&lt;сосредоточенность&gt;</span>
         </div>
         <div class="content__card-body">
           <p class="content__card-text">
@@ -270,7 +271,7 @@
             было. Главное, что я продолжала двигаться и закреплять свои навыки.
           </p>
           <div class="card__buttons">
-            <button class="card__icon-button" type="button">
+            <button class="card__icon-button" type="button" aria-label="Мне нравится">
               <svg
                 class="like-icon"
                 width="39"
@@ -278,6 +279,7 @@
                 viewBox="0 0 39 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
               >
                 <g class="heart">
                   <path
@@ -322,13 +324,13 @@
               type="image/webp"
             />
             <img
-              class="content__card-image second-sprint-end-image"
+              class="content__card-image contrast-filter"
               src="./images/second-sprint-end.jpg"
               loading="lazy"
               alt="Дикие цветы растущие на скале с высокой контрастностью"
             />
           </picture>
-          <label class="content__card-image-label">&lt;опора&gt;</label>
+          <span class="content__card-image-label">&lt;опора&gt;</span>
         </div>
         <div class="content__card-body">
           <p class="content__card-text">
@@ -347,7 +349,7 @@
             решения приходили благодаря собственным усилиям.
           </p>
           <div class="card__buttons">
-            <button class="card__icon-button" type="button">
+            <button class="card__icon-button" type="button" aria-label="Мне нравится">
               <svg
                 class="like-icon"
                 width="39"
@@ -355,6 +357,7 @@
                 viewBox="0 0 39 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
               >
                 <g class="heart">
                   <path
@@ -399,15 +402,13 @@
               type="image/webp"
             />
             <img
-              class="content__card-image third-sprint-start-image"
+              class="content__card-image blur-filter"
               src="./images/third-sprint-start.jpg"
               loading="lazy"
               alt="Лилия с фильтром размытия"
             />
           </picture>
-          <label class="content__card-image-label"
-            >&lt;изобретательность&gt;</label
-          >
+          <span class="content__card-image-label">&lt;изобретательность&gt;</span>
         </div>
         <div class="content__card-body">
           <p class="content__card-text">
@@ -422,7 +423,7 @@
             помогало не зависать и двигаться дальше.
           </p>
           <div class="card__buttons">
-            <button class="card__icon-button" type="button">
+            <button class="card__icon-button" type="button" aria-label="Мне нравится">
               <svg
                 class="like-icon"
                 width="39"
@@ -430,6 +431,7 @@
                 viewBox="0 0 39 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
               >
                 <g class="heart">
                   <path
@@ -468,13 +470,13 @@
             <source srcset="./images/third-sprint-end.avif" type="image/avif" />
             <source srcset="./images/third-sprint-end.webp" type="image/webp" />
             <img
-              class="content__card-image third-sprint-end-image"
+              class="content__card-image brightness-filter"
               src="./images/third-sprint-end.jpg"
               loading="lazy"
               alt="Цветок на синем фоне и рука в разфокусе"
             />
           </picture>
-          <label class="content__card-image-label">&lt;концентрация&gt;</label>
+          <span class="content__card-image-label">&lt;концентрация&gt;</span>
         </div>
         <div class="content__card-body">
           <p class="content__card-text">
@@ -492,7 +494,7 @@
             сразу.
           </p>
           <div class="card__buttons">
-            <button class="card__icon-button" type="button">
+            <button class="card__icon-button" type="button" aria-label="Мне нравится">
               <svg
                 class="like-icon"
                 width="39"
@@ -500,6 +502,7 @@
                 viewBox="0 0 39 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
               >
                 <g class="heart">
                   <path
@@ -538,13 +541,13 @@
             <source srcset="./images/four-sprint.avif" type="image/avif" />
             <source srcset="./images/four-sprint.webp" type="image/webp" />
             <img
-              class="content__card-image four-sprint-image"
+              class="content__card-image sepia-filter"
               src="./images/four-sprint.jpg"
               loading="lazy"
               alt="Веточка с оранжевыми листьями с фильтром сепия"
             />
           </picture>
-          <label class="content__card-image-label">&lt;любопытство&gt;</label>
+          <span class="content__card-image-label">&lt;любопытство&gt;</span>
         </div>
         <div class="content__card-body">
           <p class="content__card-text">
@@ -562,7 +565,7 @@
             опыта.
           </p>
           <div class="card__buttons">
-            <button class="card__icon-button" type="button">
+            <button class="card__icon-button" type="button" aria-label="Мне нравится">
               <svg
                 class="like-icon"
                 width="39"
@@ -570,6 +573,7 @@
                 viewBox="0 0 39 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
               >
                 <g class="heart">
                   <path
